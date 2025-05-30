@@ -1,5 +1,13 @@
+import Hero from "./Hero";
+import Projects from "./Projects";
+
 function App() {
-  return <h2>Contentful CMS</h2>;
+  return (
+    <main>
+      <Hero />
+      <Projects />
+    </main>
+  );
 }
 
 export default App;
