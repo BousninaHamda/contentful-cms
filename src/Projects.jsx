@@ -2,7 +2,6 @@ import { useFetchProject } from "./fetchProjects";
 
 const Projects = () => {
   const { loading, projects } = useFetchProject();
-  console.log(projects);
 
   if (loading) {
     return (
